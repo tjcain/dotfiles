@@ -44,7 +44,7 @@
 	fixes = Fixes: %h (\"%s\")
 
 [push]
-	default = nothing
+	default = simple
 
 [alias]
 	# add
