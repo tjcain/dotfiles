@@ -1,0 +1,27 @@
+# # nocorrect for a bunch of standard commands
+alias ls="ls -F --color=auto --group-directories-first"
+alias l="ls --color=auto -F"
+alias ll="ls --color=auto -alF --group-directories-first"
+grep="grep --color=auto" 
+diff="diff --color=auto" 
+
+# useful
+alias tailf="tail -f"
+alias sur="sudo -i"
+alias nowrap="tput rmam"
+alias wrap="tput smam"
+
+# fzf functions
+alias ffe='fzf_find_edit'
+alias fge='fzf_grep_edit'
+alias gll='fzf_git_log'
+alias fcd='fzf_change_directory'
+
+# "funny"
+alias bitch,="/usr/bin/sudo"
+alias murder="kill -9"
+
+# osX work arounds
+alias watch='watch '
+
+# vim: set ft=zsh:
