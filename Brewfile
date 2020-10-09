@@ -1,3 +1,4 @@
+brew "stow"
 brew "coreutils"
 brew "moreutils"
 brew "findutils"
